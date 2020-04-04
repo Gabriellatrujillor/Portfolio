@@ -9,11 +9,12 @@ hr {
   }
 
   body, html {
-    background-image: url("https://i.pinimg.com/564x/bc/35/e4/bc35e43d51a9dcabeb57b965d638a5f4.jpg");
-    /* height: 100%;
-    background-position: 50%;
+    background-image: url("https://images6.alphacoders.com/964/964817.png");
+    background-color: #8BABA6;
+    height: 100%;
+    background-position: 100%;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: 1075px;
     font-family: 'Dancing Script', cursive !important; 
 
   }
