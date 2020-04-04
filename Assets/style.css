@@ -8,18 +8,35 @@ hr {
     border-width: 1px;
   }
 
-  body{
-    background-image: url("https://i.pinimg.com/736x/fc/14/1e/fc141e5cd2d676eea6e1d8b813b016ac.jpg");
+  body, html {
+    background-image: url("https://i.pinimg.com/564x/bc/35/e4/bc35e43d51a9dcabeb57b965d638a5f4.jpg");
+    /* height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: 'Dancing Script', cursive !important; 
 
   }
 
+  .bg-dark {
+    background-color: #34ebc6 !important;
+  }
+
+  .card img{
+    max-width: 300px;
+    height: 275px;
+  }
 
   .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: #34ebc6;
+    color: black;
     text-align: center;
   }
+
+
+
+  
