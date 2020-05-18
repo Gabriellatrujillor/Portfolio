@@ -56,6 +56,7 @@ hr {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 80px;
     background-color: #990b525d !important;
     color: black;
     text-align: center;
@@ -63,11 +64,11 @@ hr {
   }
 
   .fa {
-    color:#2FB497;
-      font-size: 70px !important;
-      padding-top: 13px;
-      padding-left: 20px;
-      letter-spacing: 8px;
+    color:rgb(117, 18, 104);
+      font-size: 55px !important;
+      /* padding-top: 13px;
+      padding-left: 20px; */
+      letter-spacing: 50px;
       }
 
 .fa:hover{
