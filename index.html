@@ -8,6 +8,7 @@
         <title>Freelancer - Start Bootstrap Theme</title>
         <!-- Font Awesome icons (free version)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
@@ -24,7 +25,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aboutSection">ABOUT</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
                         </li>
@@ -169,8 +170,8 @@ Project One - HTML/CSS - Materialize</p>
                 </div>
             </div>
         </div>
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
+        <section class="page-section mb-0" id="aboutSection">
+            <div class="container" id="aboutContainer">
                 <!-- About Section Heading-->
                 <div class="text-center">
                     <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
@@ -200,15 +201,17 @@ Project One - HTML/CSS - Materialize</p>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    
                 </div>
                 <!-- Contact Section Content-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="d-flex flex-column align-items-center">
-                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
-                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:Gabriella.TrujilloR@gmail.com">Gabriella.TrujilloR@gmail.com</a>
+                            <!-- <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:Gabriella.TrujilloR@gmail.com">Gabriella.TrujilloR@gmail.com</a> -->
+                            <a class="btn-floating btn-lg btn-li" type="button" role="button" href="https://www.linkedin.com/in/gabriella-trujillo-robnett/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn-floating btn-lg btn-git" type="button" role="button" href="https://github.com/Gabriellatrujillor"><i class="fab fa-github"></i></a>
+                        <a class="btn-floating btn-lg btn-email" type="button" role="button" href="https://docs.google.com/document/d/e/2PACX-1vSGqtK3qyhHeVcR_CN5aOKfFLRIAzBFYupEFbzSW-qQ7YEckVGHP2Mi4lov4m1cHT55RaJk-dkFa7zz/pub"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
@@ -223,9 +226,12 @@ Project One - HTML/CSS - Materialize</p>
                         <p class="pre-wrap lead mb-0"> </p>
                     </div>
                     <!-- Footer Social Icons-->
-                    <!-- <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">FOLLOW ME</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div> -->
+                   <div class="col-lg-4 mb-5 mb-lg-0">
+                        <!-- <a class="btn-floating btn-lg btn-li" type="button" role="button" href="https://www.linkedin.com/in/gabriella-trujillo-robnett/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn-floating btn-lg btn-git" type="button" role="button" href="https://github.com/Gabriellatrujillor"><i class="fab fa-github"></i></a>
+                        <a class="btn-floating btn-lg btn-email" type="button" role="button" href="https://docs.google.com/document/d/e/2PACX-1vSGqtK3qyhHeVcR_CN5aOKfFLRIAzBFYupEFbzSW-qQ7YEckVGHP2Mi4lov4m1cHT55RaJk-dkFa7zz/pub"><i class="fas fa-envelope"></i></a> -->
+
+                    </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
                         <h4 class="mb-4"></h4>

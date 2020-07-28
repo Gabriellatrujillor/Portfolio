@@ -25,7 +25,7 @@
 .masthead {
     background: url("https://i.ibb.co/QQn04FS/Headerbackgroundnew.https://i.ibb.co/QQn04FS/Headerbackgroundnew.png"); 
     background-size: 1600px 960px;
-    background-color: rgb(199, 103, 84) !important;
+    background-color: rgb(255, 180, 164) !important;
     background-position: center;
     background-repeat: no-repeat; 
 }
@@ -73,6 +73,65 @@ p#title {
 
 .portfolio {
 
-    background: linear-gradient(to bottom, rgb(199, 103, 84), 0%, rgb(199, 103, 84) 20%, #2e0000 100%)
+    background: linear-gradient(to bottom, rgb(255, 180, 164), 0%, rgb(255, 180, 164)20%, rgb(173, 29, 48) 100%)
 
 }
+
+section#aboutSection {
+    background-image: url("https://wallpapercave.com/wp/wp3239002.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(173, 29, 48); 
+    color: rgb(236, 233, 233);
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+p.pre-wrap.lead {
+    font-weight: bolder;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    
+}
+  
+p.pre-wrap.lead:hover {
+    background-color: rgb(0, 181, 187);
+    color: rgb(255, 250, 238);
+    transition: 1.3s;
+    opacity: 1;
+    transform: scale(1.24)
+
+
+  }
+
+section#contact {
+    background-color: rgb(173, 29, 48);
+}
+
+/* 
+#mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+   transition: white 0.3s ease-in-out;
+    transition-property: green;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s; 
+}
+
+
+@keyframes headerFade {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+    }
+    } */
+
+/* #mainNav.navbar-shrink {
+    background-color: #fff;
+/* } * */
