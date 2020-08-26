@@ -1,6 +1,6 @@
 
     (function($) {
-    //"use strict"; // Start of use strict
+    "use strict"; // Start of use strict
     console.log("works")
   
     // Smooth scrolling using jQuery easing

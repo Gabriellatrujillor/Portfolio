@@ -23,7 +23,9 @@
 
 
 .masthead {
-    background: url("https://i.ibb.co/QQn04FS/Headerbackgroundnew.https://i.ibb.co/QQn04FS/Headerbackgroundnew.png"); 
+    background: url("../img/headerbackground.jpg");
+
+    /* background: url("https://i.ibb.co/QQn04FS/Headerbackgroundnew.https://i.ibb.co/QQn04FS/Headerbackgroundnew.png");  */
     background-size: 1600px 960px;
     background-color: rgb(255, 180, 164) !important;
     background-position: center;
@@ -68,7 +70,7 @@
 } */
 
 div#pOne.modal-body.text-center {
-    background: url("BGimg/HPBG2.gif");
+    background: url("./BGimg/HPBG2.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,7 +79,7 @@ div#pOne.modal-body.text-center {
 
 
 div#pTwo.modal-body.text-center {
-    background: url("BGimg/galaxy.jpg");
+    background: url("./BGimg/galaxy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

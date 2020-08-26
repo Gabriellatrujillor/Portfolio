@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static("js"));
+app.use(express.static("public"));
 
 // array variables
 
@@ -27,7 +27,7 @@ app.use(express.static("js"));
 
 app.get("*", function (req, res) {
   // res.send("reservation form")
-  res.sendFile(path.join(__dirname, "./index.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 
